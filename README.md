@@ -17,5 +17,8 @@ $RELEASE/resources/app/extensions/
      |_ package.json
 ```
 
+详细参数可参考
+https://www.sublimetext.com/docs/3/scope_naming.html
+
 ## kuno主题
 github中文件为我自定义的主题，使用方式只需要将文件粘贴在`$resources/app/extensions/theme-kuno`中，“文件-首选项-颜色主题”选择kuno即可
