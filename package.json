@@ -1,0 +1,19 @@
+{
+	"name": "theme-kuno",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.0.0",
+	"publisher": "vscode",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "kuno",
+				"uiTheme": "vs-dark",
+				"path": "./themes/kuno-color-theme.json"
+			}
+		]
+	}
+}
