@@ -11,10 +11,11 @@
 
 ```
 $RELEASE/resources/app/extensions/
- \\_ theme-kuno/
-     \_ themes/
-     |   \_ kuno-color-theme.json
-     |_ package.json
+theme-kuno
+  themes
+    kuno-color-theme.json
+  package.json
+  package.nls.json
 ```
 
 详细参数可参考

@@ -1,8 +1,3 @@
-//   #20232a (tab well, borders)
-//   #292d36 (editor background)
-//   #333d46 (selection)
-//   #5e6775 (focus)
-//   #c3c3df (editor foreground)
 {
 	"type": "dark",
 	"colors": {
@@ -21,10 +16,10 @@
 		"editor.foreground": "#5FB3B3",
 		"selection.background": "#cbcbcb",
 		"editor.selectionHighlightBackground": "#575b6180",
-		"editor.selectionBackground": "#878b9180",
-        "editor.wordHighlightBackground": "#4a4a7680",
+		"editor.selectionBackground": "#6c6f7438", // 12312
+        "editor.wordHighlightBackground": "#4a4a7623",
         "editor.wordHighlightStrongBackground": "#6a6a9680",
-		"editor.lineHighlightBackground": "#3c424d",
+		"editor.lineHighlightBackground": "#3b40498f",
 		"editorLineNumber.activeForeground": "#bfc1c2",
 		"editorCursor.foreground": "#f09642",
 		"editorWhitespace.foreground": "#414447",
@@ -39,23 +34,24 @@
 		"progressBar.background": "#5e6775",
 		"badge.background": "#5e6775",
 		"badge.foreground": "#c3c3df",
-		"editorLineNumber.foreground": "#8a8f90",
-		"panelTitle.activeForeground": "#c3c3df",
+		"editorLineNumber.foreground": "#8a8c90",
+		"panelTitle.activeForeground": "#d1d0d0",
 		"panelTitle.activeBorder": "#5e6775",
 		"panelTitle.inactiveForeground": "#5e6775",
 		"panel.border": "#333d46",
 		"titleBar.activeBackground": "#20232a",
-		"statusBar.background": "#333d46", // "#333d46",
-		"statusBar.noFolderBackground": "#333d46",
+		"statusBar.background": "#393b3b", 
+		"statusBar.foreground": "#dddcdc", 
+		"statusBar.noFolderBackground": "#32373a",
 		"statusBar.debuggingBackground": "#5e6775",
-		"activityBar.background": "#292d36",
-		"activityBar.foreground": "#c3c3df",
-		"activityBar.dropBackground": "#333d46",
-		"sideBar.background": "#20232a",
-		"sideBarSectionHeader.background": "#292d36",
-		"menu.background": "#20232a",
+		"activityBar.background": "#262a30",
+		"activityBar.foreground": "#e7e7e7",
+		"activityBar.dropBackground": "#333d46a8",
+		"sideBar.background": "#242629",
+		"sideBarSectionHeader.background": "#2b3136",
+		"menu.background": "#222428",
 		"menu.foreground": "#d6d6d6",
-		"pickerGroup.foreground": "#5e6775",
+		"pickerGroup.foreground": "#49505a",
 		"input.background": "#333d46",
 		"inputOption.activeBorder": "#5e6775",
 		"focusBorder": "#5e6775",
@@ -105,7 +101,6 @@
 				"source.groovy.embedded"
 			],
 			"settings": {
-				"background": "#292d36",
 				"foreground": "#c3c3df"
 			}
 		},
